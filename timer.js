@@ -1,6 +1,6 @@
 window.onload = function(){
 	
-	var deadlineInput = prompt("Set Deadline (example December 25 2019):", "");
+	var deadlineInput = prompt("Set Deadline (example December 25 2019 or December 17, 2019 13:24):", "");
 	if (deadlineInput!= null) {
 		document.getElementById('alert').innerHTML = 'Till ' + deadlineInput;
 		  
