@@ -6,27 +6,35 @@
 		<link rel="stylesheet" href="main.css" type="text/css" charset="utf-8">
 	</head>
 	<body>
-		<h1>Countdown Timer</h1>		
-		<div id="countdown">
-			<div>
-				<span class="days">00</span>
-				<div class="smalltext">Days</div>
-			</div>
-			<div>
-				<span class="hours">00</span>
-				<div class="smalltext">Hours</div>
-			</div>
-			<div>
-				<span class="minutes">00</span>
-				<div class="smalltext">Minutes</div>
-			</div>
-			<div>
-				<span class="seconds">00</span>
-				<div class="smalltext">Seconds</div>
+		<div id="wrapper">
+			<div id="main">
+				<h1>Countdown Timer</h1>		
+				<div id="countdown">
+					<div>
+						<span class="days">00</span>
+						<div class="smalltext">Days</div>
+					</div>
+					<div>
+						<span class="hours">00</span>
+						<div class="smalltext">Hours</div>
+					</div>
+					<div>
+						<span class="minutes">00</span>
+						<div class="smalltext">Minutes</div>
+					</div>
+					<div>
+						<span class="seconds">00</span>
+						<div class="smalltext">Seconds</div>
+					</div>
+				</div>
+				<h4 style="color: #b2b2b2">Till</h4>	
+				<h3 id="alert" style="color: white"></h3>	
+				<button id="reset" type="button" onclick="history.go(0)">Reset Countdown</button>
 			</div>
 		</div>
-		<h4 style="color: #b2b2b2">Till</h4>	
-		<h3 id="alert" style="color: white"></h3>	
-		<button id="reset" type="button" onclick="history.go(0)">Reset Countdown</button>
+		
+		<footer class="page-footer">
+			<p> Created by <a href="https://patrickmfsd.me" rel="noopener">Patrick Mifsud</a> in Melbourne, Australia.</p>
+		</footer>
 	</body>
 </html>
